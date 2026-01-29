@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cyprainCV_Portfolio/static/css/main.aa1ddd1f.css",
-    "main.js": "/cyprainCV_Portfolio/static/js/main.d4848846.js",
+    "main.css": "/cyprainCV_Portfolio/static/css/main.86688e39.css",
+    "main.js": "/cyprainCV_Portfolio/static/js/main.7f68ff19.js",
     "static/media/CV_pic.png": "/cyprainCV_Portfolio/static/media/CV_pic.fb651d3ab04108c7484d.png",
     "static/media/background-tech.png": "/cyprainCV_Portfolio/static/media/background-tech.df13286fa7568deb350f.png",
     "index.html": "/cyprainCV_Portfolio/index.html",
-    "main.aa1ddd1f.css.map": "/cyprainCV_Portfolio/static/css/main.aa1ddd1f.css.map",
-    "main.d4848846.js.map": "/cyprainCV_Portfolio/static/js/main.d4848846.js.map"
+    "main.86688e39.css.map": "/cyprainCV_Portfolio/static/css/main.86688e39.css.map",
+    "main.7f68ff19.js.map": "/cyprainCV_Portfolio/static/js/main.7f68ff19.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa1ddd1f.css",
-    "static/js/main.d4848846.js"
+    "static/css/main.86688e39.css",
+    "static/js/main.7f68ff19.js"
   ]
 }
