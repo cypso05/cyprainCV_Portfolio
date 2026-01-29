@@ -8,7 +8,7 @@ export const portfolioData = {
     phone: "420774992576",
     linkedin: "https://www.linkedin.com/in/cyprain-chidozie-6092a71a7",
     github: "https://github.com/cypso05",
-    portfolio: "https://cypso05.github.io/softwaredev/index.html"
+    portfolio: "https://cypso05.github.io/cyprain-portfolio/"
   },
   
   about: {
@@ -83,7 +83,7 @@ export const portfolioData = {
       title: "MultiAPP AI Platform",
       description: "Comprehensive AI-powered API platform with 50+ endpoints for diverse business applications",
       tech: ["Python", "Quart", "JWT", "Async/Await"],
-      link: "https://cypso05.github.io/cyprainCV_Portfolio/more-info",
+      link: "/more-info",
       category: "AI Platform"
     },
     {
