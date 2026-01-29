@@ -83,7 +83,7 @@ export const portfolioData = {
       title: "MultiAPP AI Platform",
       description: "Comprehensive AI-powered API platform with 50+ endpoints for diverse business applications",
       tech: ["Python", "Quart", "JWT", "Async/Await"],
-      link: "https://cypso05.github.io/softwaredev/index.html",
+      link: "https://cypso05.github.io/cyprainCV_Portfolio/more-info",
       category: "AI Platform"
     },
     {
