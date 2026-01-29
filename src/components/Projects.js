@@ -6,7 +6,8 @@ import {
   Code,
   Database,
   Brain,
-  Wrench
+  Wrench,
+  Eye
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
@@ -24,6 +25,27 @@ const categoryIcons = {
 const Projects = () => {
   const { projects } = portfolioData;
   const navigate = useNavigate();
+
+  const handleProjectClick = (project) => {
+    // Check if the link is an internal route (starts with /)
+    if (project.link.startsWith("/")) {
+      navigate(project.link);
+    } else {
+      // External link - open in new tab
+      window.open(project.link, '_blank', 'noopener,noreferrer');
+    }
+  };
+
+  const getButtonIcon = (project) => {
+    if (project.link.startsWith("/")) {
+      return <Eye size={16} className="mr-2 group-hover:scale-110 transition-transform" />;
+    }
+    return <ExternalLink size={16} className="mr-2 group-hover:scale-110 transition-transform" />;
+  };
+
+  const getButtonText = (project) => {
+    return project.link.startsWith("/") ? "View Details" : "View Project";
+  };
 
   return (
     <section id="projects" className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
@@ -47,7 +69,8 @@ const Projects = () => {
             return (
               <Card 
                 key={index} 
-                className="group hover:shadow-xl transition-all duration-300 border-0 bg-white/80 backdrop-blur-sm hover:bg-white overflow-hidden"
+                className="group hover:shadow-xl transition-all duration-300 border-0 bg-white/80 backdrop-blur-sm hover:bg-white overflow-hidden cursor-pointer"
+                onClick={() => handleProjectClick(project)}
               >
                 {/* Project Image Placeholder */}
                 <div className="h-48 bg-gradient-to-br from-slate-200 to-slate-300 relative overflow-hidden">
@@ -66,7 +89,11 @@ const Projects = () => {
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-600/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                     <div className="text-white">
-                      <p className="text-sm opacity-90">Click to explore project details</p>
+                      <p className="text-sm opacity-90">
+                        {project.link.startsWith("/") 
+                          ? "Click to view API endpoints" 
+                          : "Click to view live project"}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -107,17 +134,23 @@ const Projects = () => {
                     <Button
                       size="sm"
                       className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white flex-1 group"
-                      onClick={() => window.open(project.link, '_blank')}
+                      onClick={(e) => {
+                        e.stopPropagation(); // Prevent card click event
+                        handleProjectClick(project);
+                      }}
                     >
-                      <ExternalLink size={16} className="mr-2 group-hover:scale-110 transition-transform" />
-                      View Project
+                      {getButtonIcon(project)}
+                      {getButtonText(project)}
                     </Button>
 
                     <Button
                       size="sm"
                       variant="outline"
                       className="border-slate-300 hover:border-slate-400 hover:bg-slate-50"
-                      onClick={() => window.open(portfolioData.personal.github, '_blank')}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(portfolioData.personal.github, '_blank');
+                      }}
                     >
                       <Github size={16} />
                     </Button>
