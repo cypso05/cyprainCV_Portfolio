@@ -8,7 +8,7 @@ export const portfolioData = {
     phone: "420774992576",
     linkedin: "https://www.linkedin.com/in/cyprain-chidozie-6092a71a7",
     github: "https://github.com/cypso05",
-    portfolio: "https://cypso05.github.io/softwaredev/index.html"
+    portfolio: "https://cypso05.github.io/cyprain-portfolio/"
   },
   
   about: {
@@ -83,7 +83,7 @@ export const portfolioData = {
       title: "MultiAPP AI Platform",
       description: "Comprehensive AI-powered API platform with 50+ endpoints for diverse business applications",
       tech: ["Python", "Quart", "JWT", "Async/Await"],
-      link: "https://cypso05.github.io/softwaredev/index.html",
+      link: "/more-info",
       category: "AI Platform"
     },
     {
@@ -119,8 +119,8 @@ export const portfolioData = {
         impact: "Saves time and ensures accurate, standardized API documentation.",
         tech: ["Python", "AI/ML", "Documentation"],
         images: {
-          request: "/API/generateAPIrefEN.png",
-          response: "/API/generateAPIrefENresult.png"
+          request: "/images/API/generateAPIrefEN.png",
+          response: "/images/API/generateAPIrefENresult.png"
         }
       },
       {
@@ -131,8 +131,8 @@ export const portfolioData = {
         impact: "Reduces manual documentation work by 80%, ensuring consistency and saving developer time.",
         tech: ["Python", "AI/ML", "Documentation"],
         images: {
-          request: "/GenerateFullcodeDoc/Generate_fulldoc.png",
-          response: "/GenerateFullcodeDoc/fulldoc_result.png"
+          request: "/images/GenerateFullcodeDoc/Generate_fulldoc.png",
+          response: "/images/GenerateFullcodeDoc/fulldoc_result.png"
         }
       },
       {
@@ -143,8 +143,8 @@ export const portfolioData = {
         impact: "Improves codebase quality and maintainability while providing learning opportunities.",
         tech: ["Code Analysis", "AI", "Optimization"],
         images: {
-          request: "/refactor/coderefactor.png",
-          response: "/refactor/refactorresult.png"
+          request: "/images/refactor/coderefactor.png",
+          response: "/images/refactor/refactorresult.png"
         }
       },
       {
@@ -155,8 +155,8 @@ export const portfolioData = {
         impact: "Accelerates prototyping and development by automating initial code generation.",
         tech: ["NLP", "Code Generation", "Multi-language"],
         images: {
-          request: "/code_generate/CodeGeneration_request.png",
-          response: "/code_generate/CodeGeneration_result.png"
+          request: "/images/code_generate/CodeGeneration_request.png",
+          response: "/images/code_generate/CodeGeneration_result.png"
         }
       }
     ],
@@ -169,8 +169,8 @@ export const portfolioData = {
         impact: "Used for training and database debugging, improving query quality and performance.",
         tech: ["SQL", "Database", "Validation"],
         images: {
-          request: "/sqlValidate/SQLvalidaterequest.png",
-          response: "/sqlValidate/SQLvalidateresult.png"
+          request: "/images/sqlValidate/SQLvalidaterequest.png",
+          response: "/images/sqlValidate/SQLvalidateresult.png"
         }
       },
       {
@@ -181,8 +181,8 @@ export const portfolioData = {
         impact: "Reduces query execution time and infrastructure costs through intelligent optimization.",
         tech: ["Performance", "Database Optimization", "Analytics"],
         images: {
-          request: "/sqlperformance/sqlrequest.png",
-          response: "/sqlperformance/SQLresult.png"
+          request: "/images/sqlperformance/sqlrequest.png",
+          response: "/images/sqlperformance/SQLresult.png"
         }
       },
       {
@@ -193,8 +193,8 @@ export const portfolioData = {
         impact: "Simplifies developer onboarding and reduces context switching between SQL and application code.",
         tech: ["ORM", "Code Generation", "Multi-framework"],
         images: {
-          request: "/orm/SQLormcompare.png",
-          response: "/orm/SQLormcompareresult.png"
+          request: "/images/orm/SQLormcompare.png",
+          response: "/images/orm/SQLormcompareresult.png"
         }
       }
     ],
@@ -207,8 +207,8 @@ export const portfolioData = {
         impact: "Automates core financial workflows, reducing analysis time and improving accuracy.",
         tech: ["Finance", "Risk Analysis", "Compliance"],
         images: {
-          request: "financereport/Finance_report.png",
-          response: "/financereport/Finance_result.png"
+          request: "/images/financereport/Finance_report.png",
+          response: "/images/financereport/Finance_result.png"
         }
       },
       {
@@ -219,8 +219,8 @@ export const portfolioData = {
         impact: "Improves patient communication and health literacy by making medical information accessible.",
         tech: ["Healthcare", "NLP", "Patient Communication"],
         images: {
-          request: "/medical/medical_request.png",
-          response: "/medical/medicalresult.png"
+          request: "/images/medical/medical_request.png",
+          response: "/images/medical/medicalresult.png"
         }
       },
       {
@@ -231,8 +231,8 @@ export const portfolioData = {
         impact: "Enables faster contract review and risk assessment for legal professionals and businesses.",
         tech: ["Legal Tech", "Document Analysis", "Risk Assessment"],
         images: {
-          request: "/legalanalyse/legalrequest.png",
-          response: "/legalanalyse/legalresult.png"
+          request: "/images/legalanalyse/legalrequest.png",
+          response: "/images/legalanalyse/legalresult.png"
         }
       }
     ],
@@ -245,8 +245,8 @@ export const portfolioData = {
         impact: "Serves global user base with culturally-aware, contextual customer service automation.",
         tech: ["NLP", "Multilingual", "Sentiment Analysis"],
         images: {
-          request: "/support_multilingual/mulsupportrequest.png",
-          response: "/support_multilingual/mulsupportresult.png"
+          request: "/images/support_multilingual/mulsupportresult.png",
+          response: "/images/support_multilingual/mulsupportresult.png"
         }
       },
       {
@@ -257,8 +257,8 @@ export const portfolioData = {
         impact: "Scales content marketing efforts globally while maintaining cultural sensitivity and SEO optimization.",
         tech: ["Content Generation", "SEO", "Localization"],
         images: {
-          request: "/multiAPI/multilingualAPIref.png",
-          response: "/multiAPI/multilingualAPIrefresult.png"
+          request: "/images/multiAPI/multilingualAPIref.png",
+          response: "/images/multiAPI/multilingualAPIrefresult.png"
         }
       },
       {
@@ -269,8 +269,8 @@ export const portfolioData = {
         impact: "Improves job application success rates by creating targeted, role-specific professional profiles.",
         tech: ["Career Tech", "AI Matching", "Professional Development"],
         images: {
-          request: "/CV/CV_request.png",
-          response: "/CV/CVresult.png"
+          request: "/images/CV/CV_request.png",
+          response: "/images/CV/CVresult.png"
         }
       }
     ],
@@ -283,8 +283,8 @@ export const portfolioData = {
         impact: "Enables enterprise-grade content management with reliable data processing and validation.",
         tech: ["Data Processing", "Enterprise", "Structured Data"],
         images: {
-          request: "/content_generate/content_request.png",
-          response: "/content_generate/content_result.png"
+          request: "/images/content_generate/content_request.png",
+          response: "/images/content_generate/content_result.png"
         }
       },
       {
@@ -295,8 +295,8 @@ export const portfolioData = {
         impact: "Ensures system reliability and provides real-time monitoring for maintaining service quality.",
         tech: ["Monitoring", "DevOps", "System Health"],
         images: {
-          request: "/healthcheck/health_request.png",
-          response: "/healthcheck/health_result.png"
+          request: "/images/healthcheck/health_request.png",
+          response: "/images/healthcheck/health_result.png"
         }
       },
       {
@@ -307,8 +307,8 @@ export const portfolioData = {
         impact: "Informs capacity planning and system optimization through detailed performance analytics.",
         tech: ["Analytics", "Performance", "Monitoring"],
         images: {
-          request: "/metrics/metricsrequest.png",
-          response: "/metrics/matricsresult.png"
+          request: "/images/metrics/metricsrequest.png",
+          response: "/images/metrics/matricsresult.png"
         }
       }
     ]
