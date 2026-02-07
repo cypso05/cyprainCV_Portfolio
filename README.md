@@ -1,31 +1,22 @@
 # 🔥 Modern React Portfolio & CV Dashboard
 A professional portfolio website built with React and Tailwind CSS, featuring a clean architecture and modern development practices.
 
-Live Demo: [Add Your Live URL Here]
-Developer: [Your Name]
+## 🛠 Tech Stack
 
-# 🚀 Tech Stack
-Frontend:
+**Frontend**
+- React.js – Component-based UI development
+- **Tailwind CSS** – Primary styling solution (utility-first, responsive design)
+- PostCSS – CSS processing and optimization
+- MUI Icons – Scalable, customizable UI icons
 
-React.js – Core UI framework with component-based architecture
+**Styling**
+- Tailwind CSS configuration
+- Custom global styles (index.css, App.css)
 
-Tailwind CSS – Utility-first CSS framework for responsive design
-
-PostCSS – CSS processing tool
-
-MUI Icons – Icon library for UI elements
-
-Custom CSS – Additional styling in App.css and index.css
-
-Development Tools:
-
-Create React App – Project bootstrapping
-
-npm – Package management
-
-Environment Variables – Secure configuration (.env)
-
-Path Aliasing – Clean imports via jsconfig.json
+**Tooling**
+- Node.js & npm
+- Environment variables (.env)
+- Create React App
 
 # 📁 Project Structure (Exact Layout)
 
@@ -129,10 +120,11 @@ Styling: Primary styling via Tailwind, with custom CSS in App.css/index.css
 
 Icons: Using @mui/icons-material for UI icons
 
-📄 License
+
+# 📄 License
 MIT License - see LICENSE file for details.
 
-📬 Contact
+# 📬 Contact
 [Cyprain Chidozie]
 GitHub: @cypso05
 https://www.linkedin.com/in/cyprain-chidozie-6092a71a7/
